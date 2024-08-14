@@ -1,0 +1,43 @@
+/* geral */
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #ffffffd7;
+    background-color: #222;
+}
+
+/* container de imagens */
+.container{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.imagem-container{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+.imagem-container img{
+    display: block;
+    margin: 2rem auto 1rem;
+    width: 1000px;
+    height: 600px;
+}
+
+.imagem-container p{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffffd7;
+}
